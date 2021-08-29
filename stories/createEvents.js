@@ -2,7 +2,6 @@ export default function createEvents(idx = 0, date = new Date()) {
   const y = date.getFullYear()
   const m = date.getMonth()
   const d = date.getDate()
-
   const sets = [
     [
       {
